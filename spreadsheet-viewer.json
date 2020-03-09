@@ -1,0 +1,11 @@
+{
+  "dom": "B<'clear'>lfrtip",
+  "buttons": [
+      "colvis",
+      "copy",
+      "csv",
+      "excel",
+      "pdf",
+      "print"
+  ]
+}
