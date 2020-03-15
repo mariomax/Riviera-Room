@@ -17,28 +17,49 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 
 :root {
-	--purple: #5211D9;
-	--blue1: #3b12E3;
-	--blue2: #261BCC;
-	--gray: #E5E7F0;
-	--red: #99000F;
-	--black: #131313;
+  --purple: #5211D9;
+  --blue1: #3b12E3;
+  --blue2: #261BCC;
+  --gray: #E5E7F0;
+  --red: #99000F;
+  --black: #131313;
 }
 
-body {
+body,
+h5 {
   font-family: bebas-neue-by-fontfabric, sans-serif;
-	font-weight: 400;
-	font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
+  color: #FFF;
   font-family: kon-tiki-aloha-jf, sans-serif;
-	font-weight: 400;
+  font-weight: 400;
   font-style: normal;
 }
 
+h5,
+p {
+  color: #E5E7F0;
+}
+
+#header-title,
+.no-margin {
+  margin-bottom: 0 !important;
+}
+
+#other-title h1 {
+  background-image: url(https://therivieraroom.com/wp-content/uploads/2020/03/title-light-BG.jpg);
+  background-position: bottom center;
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+	color: transparent;
+	font-weight: 800;
+}
