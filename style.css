@@ -47,6 +47,12 @@ h6 {
   font-style: normal;
 }
 
+p {
+  font-family: droid-serif,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .big-headline .elementor-widget-container h2,
 .big-headline .elementor-widget-container h3 {
   line-height: 1.3;
@@ -70,11 +76,11 @@ p {
 #other-title h1 {
 	/* background-image: url(https://therivieraroom.com/wp-content/uploads/2020/03/title-light-BG.jpg); */
 	background-image: url(https://therivieraroom.com/wp-content/uploads/2020/03/velvet-curtain-cropped.jpg);
-  background-position: bottom center;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
-  background-attachment: fixed;
+  background-attachment: local;
 	color: transparent;
 	font-weight: 800;
 }
